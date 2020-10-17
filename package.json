@@ -1,0 +1,23 @@
+{
+  "name": "youtube-uploader-bot",
+  "version": "1.0.0",
+  "description": "![How to Build a YouTube Uploader Bot Using Google Apps Script](https://images.unsplash.com/photo-1527430253228-e93688616381?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)Whenever you hear the word 'Bot' you probably imagine a robot like they show in the movies. They are bots too, rather smart ones. But we are referring to a different kind of bot here.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theabbie/Youtube-Uploader-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theabbie/Youtube-Uploader-Bot/issues"
+  },
+  "homepage": "https://github.com/theabbie/Youtube-Uploader-Bot#readme",
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "puppeteer": "^5.3.1"
+  }
+}
