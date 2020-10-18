@@ -18,6 +18,7 @@
   "homepage": "https://github.com/theabbie/Youtube-Uploader-Bot#readme",
   "dependencies": {
     "ffmpeg": "0.0.4",
+    "axios": "0.20.0",
     "puppeteer": "^5.3.1"
   }
 }
