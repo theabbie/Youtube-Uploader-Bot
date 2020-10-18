@@ -2,7 +2,6 @@ language: node_js
 node_js:
   - "14.1.0"
 script:
-  - ffmpeg -f lavfi -i nullsrc=s=1280x720 -filter_complex \ "geq=random(1)*255:128:128;aevalsrc=-2+random(0)" \ -t 5 output.mp4
   - node.index.js
 install:
-  - sudo apt-get install libavformat-dev libavfilter-dev libavdevice-dev ffmpeg && npm install
+  - npm install
