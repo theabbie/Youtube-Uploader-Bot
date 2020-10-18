@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "14.1.0"
 script:
-  - node.index.js
+  - node index.js
 install:
   - npm install
