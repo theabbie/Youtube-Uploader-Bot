@@ -1,12 +1,9 @@
-  const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer');
 const axios = require("axios");
 const fs = require("fs");
-var cheerio = require("cheerio");
 const util = require("util");
 var url = require("url");
-var devRant = require("rantscript");
 const save = util.promisify(fs.writeFile);
-var imgur = require("imgur");
 
 (async function() {
   var browser = await puppeteer.launch({args: ['--no-sandbox']});
