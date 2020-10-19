@@ -26,6 +26,7 @@ const save = util.promisify(fs.writeFile);
 
   if (url) {
   	console.log(url,title);
+    await axios("https://script.google.com/macros/s/AKfycbybvXgP3EsxrEdmMdwOrXB8adNCBP_8_PXDKyB8bv_fHyOJDFA/exec?url="+url+"&title="+title+"&desc="+title);
   	break;
   }
   }
