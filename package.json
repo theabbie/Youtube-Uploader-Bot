@@ -19,6 +19,6 @@
   "dependencies": {
     "ffmpeg": "0.0.4",
     "axios": "0.20.0",
-    "puppeteer": "^5.3.1"
+    "random-gag": "^1.0.2"
   }
 }
