@@ -1,0 +1,1 @@
+function upload(url, title, description, topics) { try { var video = UrlFetchApp.fetch(url); YouTube.Videos.insert({ snippet: { title: title, description: description, tags: topics }, status: { privacyStatus: "public", }, }, "snippet,status", video); return ContentService.createTextOutput("done") } catch (err) { return ContentService.createTextOutput(err.message) } }
